@@ -7,7 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: "src/main.js", // Entry point of your application
       output: {
-        dir: "dist", // Output directory
+        dir: "build", // Output directory
         format: "es", // Output format (ES module)
       },
     },
