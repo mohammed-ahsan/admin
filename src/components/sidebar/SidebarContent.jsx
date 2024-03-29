@@ -9,7 +9,7 @@ import { IoLogOutOutline } from "react-icons/io5";
 import sidebar from "@/routes/sidebar";
 // import SidebarSubMenu from "SidebarSubMenu";
 import logoDark from "@/assets/img/logo/logo-color.png";
-import logoLight from "@/assets/img/logo/logo-dark.svg";
+import logoLight from "@/assets/img/logo/logo-color.png";
 import { AdminContext } from "@/context/AdminContext";
 import SidebarSubMenu from "@/components/sidebar/SidebarSubMenu";
 
