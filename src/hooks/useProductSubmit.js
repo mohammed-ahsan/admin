@@ -10,7 +10,7 @@ import { SidebarContext } from "@/context/SidebarContext";
 import AttributeServices from "@/services/AttributeServices";
 import ProductServices from "@/services/ProductServices";
 import { notifyError, notifySuccess } from "@/utils/toast";
-// import useTranslationValue from "./useTranslationValue";
+import useTranslationValue from "./useTranslationValue";
 import useUtilsFunction from "./useUtilsFunction";
 
 const useProductSubmit = (id) => {
@@ -55,7 +55,7 @@ const useProductSubmit = (id) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [slug, setSlug] = useState("");
 
-  // const { handlerTextTranslateHandler } = useTranslationValue();
+  const { handlerTextTranslateHandler } = useTranslationValue();
   const { showingTranslateValue, getNumber, getNumberTwo } = useUtilsFunction();
 
   // console.log("lang", lang);
